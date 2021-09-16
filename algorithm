@@ -1,0 +1,9 @@
+ look at the set of numbers.
+ for each number, see if it’s bigger than any earlier number.
+ if it is, remember that number.
+ keep going until you’ve looked at them all.
+ the last number you remembered is the largest.
+
+Here’s a better algorithm (I thought of it around step 3., above):
+. sort the numbers in decreasing order.
+. the one at the top is the biggest.
